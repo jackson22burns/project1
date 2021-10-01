@@ -60,7 +60,7 @@ a.active, a:hover{
     display:none;
 }
 
-@media (max-width: 920px){
+@media (max-width: 950px){
     .checkbtn{
         display: block;
     }
@@ -93,5 +93,20 @@ section{
     background-image: url(images/bg.jpeg);
     background-size: cover;
     height: calc(100vh -80px);
+}
+
+.infoBox{
+    margin: auto;
+    width: 90%;
+    border: 3px solid #000000;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.3);
+}
+.info{
+    margin: auto;
+    width: 80%;
+    border: 3px solid #000000;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
 }
 
