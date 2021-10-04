@@ -1,7 +1,12 @@
-
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
 body{
     font-family: montserrat;
-    background: url(images/bg.jpeg);
+    background: url(images/bg.jpeg) no-repeat center center fixed; ;
     background-repeat: no-repeat;
     background-size: cover;
     height: calc(100vh -80px);
@@ -55,7 +60,7 @@ a.active, a:hover{
     display:none;
 }
 
-@media (max-width: 950px){
+@media (max-width: 1000px){
     .checkbtn{
         display: block;
     }
@@ -121,6 +126,21 @@ section{
 }
 .box:hover{
     transform: scale(1.1); 
+}
+
+.gridContainer {
+    margin: 0 auto;
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    padding: 30px;
+}
+.card {
+    position: relative;
+    border: 3px solid #000000;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255, 0.3);
 }
 
 
